@@ -1,0 +1,7 @@
+<launch>
+    <!-- <node pkg="rosserial_python" type="serial_node.py" args="tcp" name="serial_bluetooth" output="screen" launch-prefix="gnome-terminal"/> -->
+    
+    <node pkg="omni4_odometry" type="rviz.py" name="odom" output="screen"/>
+
+    <node pkg="rviz" type="rviz" name="rviz"/>
+</launch>
